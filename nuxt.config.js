@@ -5,7 +5,7 @@ export default {
   },
 
   // https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -56,9 +56,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'zh-CN',
-      name: '伊比利亚审判庭',
-      short_name: '伊比利亚审判庭',
-      description: '伊比利亚审判庭 - 游戏托管平台',
+      name: '雷神工业园',
+      short_name: '雷神工业园',
+      description: '雷神工业园 - 游戏托管平台',
       start_url: '/'
     }
   },
